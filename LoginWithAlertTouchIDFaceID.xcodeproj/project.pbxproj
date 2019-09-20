@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0B6AE7232648E800CD7F99 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B6AE6232648E800CD7F99 /* HomeViewController.swift */; };
 		7E12DE822325404A00950F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E12DE812325404A00950F55 /* AppDelegate.swift */; };
 		7E12DE842325404A00950F55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E12DE832325404A00950F55 /* ViewController.swift */; };
 		7E12DE872325404A00950F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E12DE852325404A00950F55 /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E12DE7E2325404A00950F55 /* SecuringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecuringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0B6AE6232648E800CD7F99 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E12DE7E2325404A00950F55 /* LoginWithAlertTouchIDFaceID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithAlertTouchIDFaceID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E12DE812325404A00950F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E12DE832325404A00950F55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E12DE862325404A00950F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,7 @@
 		7E12DE752325404A00950F55 = {
 			isa = PBXGroup;
 			children = (
-				7E12DE802325404A00950F55 /* SecuringDemo */,
+				7E12DE802325404A00950F55 /* LoginWithAlertTouchIDFaceID */,
 				7E12DE7F2325404A00950F55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		7E12DE7F2325404A00950F55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E12DE7E2325404A00950F55 /* SecuringDemo.app */,
+				7E12DE7E2325404A00950F55 /* LoginWithAlertTouchIDFaceID.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E12DE802325404A00950F55 /* SecuringDemo */ = {
+		7E12DE802325404A00950F55 /* LoginWithAlertTouchIDFaceID */ = {
 			isa = PBXGroup;
 			children = (
 				7E12DE812325404A00950F55 /* AppDelegate.swift */,
 				7E12DE832325404A00950F55 /* ViewController.swift */,
+				7E0B6AE6232648E800CD7F99 /* HomeViewController.swift */,
 				7E12DE852325404A00950F55 /* Main.storyboard */,
 				7E12DE882325404B00950F55 /* Assets.xcassets */,
 				7E12DE8A2325404B00950F55 /* LaunchScreen.storyboard */,
 				7E12DE8D2325404B00950F55 /* Info.plist */,
 			);
-			path = SecuringDemo;
+			path = LoginWithAlertTouchIDFaceID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E12DE7D2325404A00950F55 /* SecuringDemo */ = {
+		7E12DE7D2325404A00950F55 /* LoginWithAlertTouchIDFaceID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E12DE902325404B00950F55 /* Build configuration list for PBXNativeTarget "SecuringDemo" */;
+			buildConfigurationList = 7E12DE902325404B00950F55 /* Build configuration list for PBXNativeTarget "LoginWithAlertTouchIDFaceID" */;
 			buildPhases = (
 				7E12DE7A2325404A00950F55 /* Sources */,
 				7E12DE7B2325404A00950F55 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SecuringDemo;
+			name = LoginWithAlertTouchIDFaceID;
 			productName = SecuringDemo;
-			productReference = 7E12DE7E2325404A00950F55 /* SecuringDemo.app */;
+			productReference = 7E12DE7E2325404A00950F55 /* LoginWithAlertTouchIDFaceID.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E12DE792325404A00950F55 /* Build configuration list for PBXProject "SecuringDemo" */;
+			buildConfigurationList = 7E12DE792325404A00950F55 /* Build configuration list for PBXProject "LoginWithAlertTouchIDFaceID" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E12DE7D2325404A00950F55 /* SecuringDemo */,
+				7E12DE7D2325404A00950F55 /* LoginWithAlertTouchIDFaceID */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			files = (
 				7E12DE842325404A00950F55 /* ViewController.swift in Sources */,
 				7E12DE822325404A00950F55 /* AppDelegate.swift in Sources */,
+				7E0B6AE7232648E800CD7F99 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +287,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecuringDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginWithAlertTouchIDFaceID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sofrecom.SecuringDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simo.LoginWithAlertTouchIDFaceID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +304,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SecuringDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginWithAlertTouchIDFaceID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sofrecom.SecuringDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simo.LoginWithAlertTouchIDFaceID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E12DE792325404A00950F55 /* Build configuration list for PBXProject "SecuringDemo" */ = {
+		7E12DE792325404A00950F55 /* Build configuration list for PBXProject "LoginWithAlertTouchIDFaceID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E12DE8E2325404B00950F55 /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E12DE902325404B00950F55 /* Build configuration list for PBXNativeTarget "SecuringDemo" */ = {
+		7E12DE902325404B00950F55 /* Build configuration list for PBXNativeTarget "LoginWithAlertTouchIDFaceID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E12DE912325404B00950F55 /* Debug */,

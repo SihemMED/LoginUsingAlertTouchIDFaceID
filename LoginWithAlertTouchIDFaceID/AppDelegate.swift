@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SecuringDemo
+//  LoginWithAlertTouchIDFaceID
 //
-//  Created by Sofrecom2 on 9/8/19.
+//  Created by Sihem Mohamed on 9/8/19.
 //  Copyright © 2019 Sihem Mohamed. All rights reserved.
 //
 
